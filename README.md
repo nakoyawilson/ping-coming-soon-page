@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [JavaScript: HTML Form - email validation](https://www.w3resource.com/javascript/form/email-validation.php) - This helped me with email regex.
+- [JavaScript: HTML Form - email validation](https://www.w3resource.com/javascript/form/email-validation.php) - This helped me with the email regex.
 
 ## Author
 
