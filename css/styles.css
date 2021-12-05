@@ -150,6 +150,11 @@ input:focus {
   color: var(--color-blue);
 }
 
+.attribution a:hover {
+  color: var(--blue-hover);
+  text-decoration: none;
+}
+
 /* Media Queries */
 @media screen and (max-width: 500px) {
   .coming-soon {
