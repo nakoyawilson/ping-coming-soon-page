@@ -78,6 +78,7 @@ input {
   padding: 1rem 1.5rem;
   border-radius: 50px;
   width: 425px;
+  color: var(--dark-blue);
 }
 
 input:focus {
@@ -147,4 +148,36 @@ input:focus {
 }
 .attribution a {
   color: var(--color-blue);
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .coming-soon {
+    font-size: 1.5rem;
+  }
+
+  .subscribe {
+    font-size: 0.85rem;
+  }
+
+  .form-elements {
+    flex-direction: column;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  .error-message {
+    text-align: center;
+  }
+
+  .notify {
+    width: 300px;
+  }
+
+  .illustration {
+    width: 300px;
+    height: auto;
+  }
 }
