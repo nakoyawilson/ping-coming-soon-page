@@ -1,8 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+:root {
+  --color-blue: hsl(223, 87%, 63%);
+  --blue-hover: hsla(223, 87%, 63%, 0.8);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --color-gray: hsl(0, 0%, 59%);
+  --dark-blue: hsl(209, 33%, 12%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-gray);
+  text-align: center;
+}
+
+.logo {
+  margin: 2.5rem 0;
+}
+
+.coming-soon {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.bold-text {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.subscribe {
+  color: var(--dark-blue);
+}
+
+.illustration {
+  width: 50%;
+}
+
+.form-section {
+  margin: 2rem 0 4rem;
+}
+
+.form-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  font-size: 0.9rem;
+  color: var(--pale-blue);
+  padding: 1rem 1.5rem;
+}
+
+input {
+  border: 1px solid var(--pale-blue);
+  font-size: 0.9rem;
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  width: 425px;
+}
+
+input:focus {
+  border: 1px solid var(--pale-blue);
+}
+
+.error-message {
+  display: none;
+  color: var(--light-red);
+  font-style: italic;
+  font-size: 0.7rem;
+  text-align: left;
+  margin: 0.25rem 1.5rem;
+}
+
+.notify {
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: 50px;
+  color: var(--color-white);
+  width: 200px;
+  padding: 1rem 0;
+  font-weight: 600;
+  box-shadow: 0 0.5rem 1rem hsla(223, 100%, 88%, 0.2);
+}
+
+.notify:hover {
+  cursor: pointer;
+  background-color: var(--blue-hover);
+}
+
+.social-icons {
+  color: var(--color-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 5rem 0 1.5rem;
+}
+
+.icon-border {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--pale-blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-border:hover {
+  cursor: pointer;
+  background-color: var(--blue-hover);
+  border: none;
+  color: var(--color-white);
+}
+
+.copyright {
+  font-size: 0.7rem;
+}
+
 /* Footer Section */
 .attribution {
+  margin: 0.5rem 0;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--color-blue);
 }
