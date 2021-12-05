@@ -28,6 +28,10 @@ body {
   text-align: center;
 }
 
+main {
+  margin-top: 3rem;
+}
+
 .logo {
   margin: 2.5rem 0;
 }
