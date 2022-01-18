@@ -32,11 +32,16 @@ main {
   margin-top: 3rem;
 }
 
+.header-section {
+  margin-bottom: 2.5rem;
+}
+
 .logo {
   margin: 2.5rem 0;
 }
 
 .coming-soon {
+  font-size: 3rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
@@ -56,7 +61,7 @@ main {
 }
 
 .form-section {
-  margin: 2rem 0 4rem;
+  margin: 2rem 0 5.5rem;
 }
 
 .form-elements {
@@ -71,8 +76,8 @@ main {
 
 input {
   border: 1px solid var(--pale-blue);
-  font-size: 0.9rem;
-  padding: 1rem 1.5rem;
+  font-size: 1.05rem;
+  padding: 1rem 1.5rem 1rem 2rem;
   border-radius: 50px;
   width: 425px;
   color: var(--dark-blue);
@@ -80,6 +85,8 @@ input {
 
 ::placeholder {
   color: var(--pale-blue);
+  opacity: 0.75;
+  font-size: 1.05rem;
 }
 
 .error-message {
@@ -97,9 +104,10 @@ input {
   border-radius: 50px;
   color: var(--color-white);
   width: 200px;
-  padding: 1rem 0;
-  font-weight: 600;
+  padding: 1.05rem 0;
+  font-weight: 300;
   box-shadow: 0 0.5rem 1rem hsla(223, 100%, 88%, 0.2);
+  font-size: 1rem;
 }
 
 .notify:hover {
@@ -113,7 +121,7 @@ input {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: 5rem 0 1.5rem;
+  margin: 4rem 0 1.5rem;
 }
 
 .icon-border {
